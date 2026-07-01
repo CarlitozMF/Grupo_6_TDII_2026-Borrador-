@@ -1,8 +1,11 @@
 # Trabajo Práctico N°1
 
 **Autor:** Mamani Flores Carlos
+
 **Legajo:** 52797 
+
 **Cátedra:** Técnicas Digitales 2  
+
 **Año:** 2026 
 
 ---
