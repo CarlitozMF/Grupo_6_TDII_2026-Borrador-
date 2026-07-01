@@ -1,4 +1,4 @@
-# Técnicas Digitales 2 - UTN FRT
+# Técnicas Digitales 2 - UTN FRT (Borrador)
 ## Grupo 6: Laboratorio de Sistemas Embebidos
 
 ### 1. Título y Objetivos
