@@ -87,10 +87,7 @@ const uint32_t alternancia_LD1	= 100;
 const uint32_t alternancia_LD2	= 300;
 const uint32_t alternancia_LD3	= 600;
 static int indice = 0;													// Variable que iterara el arreglo
-static uint32_t divisor_velocidad = 0;
 static uint32_t contador_tiempo = 0;
-static uint32_t divisor = 0;
-static uint32_t ultimo_disparo = 0;
 static bool estado_parpadeo = false;
 static Estado_t estado = Secuencia_1;									// Estado inicial de la MEF
 static Estado_Sec1_t modo = Estado_Encendido;							// Estado inicial de la MEF de Secuencia 1
@@ -175,9 +172,6 @@ int main(void)
 				indice = 0;
 				modo = Estado_Encendido;
 				contador_tiempo = 0;
-				ultimo_disparo = 0;
-				divisor_velocidad = 0;
-				divisor = 0;
 				estado_parpadeo = false;
 
 				btn_presionado = true;
@@ -233,35 +227,24 @@ int main(void)
 		break;
 
 		case Secuencia_3:
-				divisor_velocidad++;
-
-				if (divisor_velocidad >= 5000) {
-					divisor_velocidad = 0;
-					contador_tiempo++;
-
+			/* Parpadeo asincrónico: Base bloqueante controlada de 100ms */
+			            HAL_Delay(100);
+			            contador_tiempo++;
 					// Ahora contador_tiempo es el que usamos para los LEDs
-					if (contador_tiempo % 100 == 0) HAL_GPIO_TogglePin(leds_array[0].port, leds_array[0].pin); // 100ms
-					if (contador_tiempo % 300 == 0) HAL_GPIO_TogglePin(leds_array[1].port, leds_array[1].pin); // 300ms
-					if (contador_tiempo % 600 == 0) HAL_GPIO_TogglePin(leds_array[2].port, leds_array[2].pin); // 600ms
-				}
+					if (contador_tiempo % 1 == 0) HAL_GPIO_TogglePin(leds_array[0].port, leds_array[0].pin); // 100ms
+					if (contador_tiempo % 3 == 0) HAL_GPIO_TogglePin(leds_array[1].port, leds_array[1].pin); // 300ms
+					if (contador_tiempo % 6 == 0) HAL_GPIO_TogglePin(leds_array[2].port, leds_array[2].pin); // 600ms
 		break;
 
 		case Secuencia_4:
-				divisor++;
-				if (divisor >= 5000) {
-					divisor = 0;
-					contador_tiempo++;
 
-					// Ahora sí, usamos tu lógica de disparo
-					if ((contador_tiempo - ultimo_disparo) >= 150) {
-						ultimo_disparo = contador_tiempo;
 						estado_parpadeo = !estado_parpadeo;
 
 						HAL_GPIO_WritePin(leds_array[0].port, leds_array[0].pin, estado_parpadeo ? GPIO_PIN_SET : GPIO_PIN_RESET);
 						HAL_GPIO_WritePin(leds_array[2].port, leds_array[2].pin, estado_parpadeo ? GPIO_PIN_SET : GPIO_PIN_RESET);
 						HAL_GPIO_WritePin(leds_array[1].port, leds_array[1].pin, estado_parpadeo ? GPIO_PIN_RESET : GPIO_PIN_SET);
-					}
-				}
+
+						HAL_Delay(300);
 		break;
 
 		default:
@@ -278,9 +261,6 @@ int main(void)
 
 				    // 3. REINICIO DE LAS VARIABLES TEMPORALES
 				    contador_tiempo = 0;
-				    ultimo_disparo = 0;
-				    divisor_velocidad = 0;
-				    divisor = 0;
 				    estado_parpadeo = false;
 		break;
 		}
