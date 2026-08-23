@@ -1,0 +1,183 @@
+!SESSION 2026-08-23 17:02:07.351 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-23 17:02:46.690
+!MESSAGE Log4j2 initialized with config file C:\Users\Carlitoz MF\Documents\Microcontroladores\Tecnicas_Digitales2-2026\AFP_4_Grupo_6_TDII_2026\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-23 17:02:49.059
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.174
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.174
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.175
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.175
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.176
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 17:03:00.176
+!MESSAGE port: COM14
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 17:19:22.527
+!MESSAGE Indexed 'App_4_1_Grupo_6_2026' (21 sources, 145 headers) in 3,25 sec: 13.334 declarations; 48.817 references; 5 unresolved inclusions; 121 syntax errors; 1.323 unresolved names (2,1 %)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.489
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.490
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.491
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.491
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.491
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.491
+!MESSAGE port: COM14
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:05:56.492
+!MESSAGE port: COM6
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.034
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.034
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.034
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.035
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.035
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:10.035
+!MESSAGE port: COM14
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.073
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.073
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.073
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.073
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.073
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.075
+!MESSAGE port: COM14
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:06:29.075
+!MESSAGE port: COM6
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.975
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.975
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.975
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.976
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.976
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:07.976
+!MESSAGE port: COM14
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.562
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM15
+COM9
+COM8
+COM14
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.562
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.563
+!MESSAGE port: COM15
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.563
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.563
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.563
+!MESSAGE port: COM14
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-08-23 18:07:18.564
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 18:33:39.200
+!MESSAGE Indexed 'App_4_2_Grupo_6_2026' (30 sources, 146 headers) in 4,32 sec: 13.682 declarations; 53.151 references; 5 unresolved inclusions; 130 syntax errors; 1.370 unresolved names (2 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 19:18:14.979
+!MESSAGE Indexed 'App_4_3_Grupo_6_2026' (20 sources, 116 headers) in 1,6 sec: 11.524 declarations; 43.132 references; 5 unresolved inclusions; 1.072 syntax errors; 1.433 unresolved names (2,6 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 19:57:44.990
+!MESSAGE Indexed 'App_4_3_Grupo_6_2026' (27 sources, 125 headers) in 1,51 sec: 11.711 declarations; 45.910 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0,41 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 20:37:15.929
+!MESSAGE Indexed 'App_4_4_Grupo_6_2026' (20 sources, 117 headers) in 1,42 sec: 11.530 declarations; 45.426 references; 1 unresolved inclusions; 92 syntax errors; 238 unresolved names (0,42 %)

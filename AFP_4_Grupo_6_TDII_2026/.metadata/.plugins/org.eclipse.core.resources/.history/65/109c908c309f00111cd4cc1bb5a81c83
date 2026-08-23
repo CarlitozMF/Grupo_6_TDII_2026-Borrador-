@@ -1,0 +1,13 @@
+/*
+ * pal_tick.h
+ *
+ *  Created on: 23 ago 2026
+ *      Author: Carlitoz MF
+ */
+
+#ifndef CUSTOM_DRIVERS_INC_PAL_TICK_STM32_H_
+#define CUSTOM_DRIVERS_INC_PAL_TICK_STM32_H_
+
+
+
+#endif /* CUSTOM_DRIVERS_INC_PAL_TICK_STM32_H_ */

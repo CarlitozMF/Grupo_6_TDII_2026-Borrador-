@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_4_1_Grupo_6_2026/Drivers/Custom_Drivers/Inc/pal_tick.h&apos; to &apos;pal_tick_stm32.h&apos;" description="Rename resource &apos;pal_tick.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Drivers/Custom_Drivers/Inc/pal_tick.h" name="pal_tick_stm32.h" stamp="1787516600688" updateReferences="true"/>
+</session>
